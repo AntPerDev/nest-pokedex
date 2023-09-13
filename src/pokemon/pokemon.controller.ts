@@ -26,7 +26,6 @@ export class PokemonController {
 
   @Patch(':terminoDeBusqueda')
   update(@Param('terminoDeBusqueda',) terminoDeBusqueda: string, @Body() updatePokemonDto: UpdatePokemonDto) {
-
     return this.pokemonService.update(terminoDeBusqueda, updatePokemonDto);
   }
 
