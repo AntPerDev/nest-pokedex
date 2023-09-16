@@ -3,7 +3,7 @@ import { PokemonService } from './pokemon.service';
 import { CreatePokemonDto } from './dto/create-pokemon.dto';
 import { UpdatePokemonDto } from './dto/update-pokemon.dto';
 import { ParseMongoIdPipe } from 'src/common/pipes/parse-mongo-id/parse-mongo-id.pipe';
-import { log } from 'console';
+
 import { PaginationDto } from 'src/common/dto/pagination.dto';
 
 @Controller('pokemon')
